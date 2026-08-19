@@ -5,8 +5,9 @@ import helmet from 'helmet';
 import cors from 'cors'; 
 import dotenv from 'dotenv';
 import productRoutes from './routes/productRoutes.js';
+import 
 import {sql } from './config/db.js'
-dotenv.config();
+dotenv.config(); ///there is one more way for this its used in lib/arcjet.js
 
 
 const app = express();
@@ -17,7 +18,19 @@ app.use(cors());
 app.use(helmet()); //used for security purpose to get more http headers in the reaponse
 app.use(morgan('dev'));
 
-app.use('/api/products', productRoutes);//////
+// rate limiting and bot detection
+app.use(async (req,res,next)=>{
+    try {
+        
+    } catch (error) {
+        
+    }
+})
+
+
+app.use('/api/products', productRoutes);
+
+// about app.use() -> if we dont give url it works for all the urls
 
 async function initDB(){ 
     try{
