@@ -1,0 +1,19 @@
+// Tailwind CSS → Utility-first CSS framework for styling UI quickly using classes.
+
+// Vite → Fast development and build tool for running React projects.
+
+// React → Library for building interactive user interfaces using components.
+
+// ES7 React Snippets → VS Code extension that provides shortcuts for writing React code faster.
+
+// DaisyUI → Prebuilt UI component library built on top of Tailwind CSS.
+
+// React Router DOM → Handles navigation and routing between pages in a React app.
+
+// Axios → Library for making HTTP requests between frontend, backend, and APIs.
+
+// Zustand → Lightweight library for managing shared/global state in React.
+
+// React Hot Toast → Displays temporary success, error, and information notifications.
+
+// Lucide React → Icon library that provides customizable React icons.

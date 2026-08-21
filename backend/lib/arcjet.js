@@ -1,4 +1,4 @@
-import arcjet, {tokenBucket,shield,detectBot, categories} from "@arcjet/node";
+import arcjet, {tokenBucket,shield,detectBot, slidingWindow} from "@arcjet/node";
 
 // we can use dotenv.confing in 2 ways
 import "dotenv/config";
@@ -23,7 +23,7 @@ export const aj = arcjet({
             mode:"LIVE",
             refillRate: 5,
             interval: 10,
-            capicity: 10
+            capacity: 10
         })
 
     ]
